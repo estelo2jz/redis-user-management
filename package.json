@@ -1,0 +1,19 @@
+{
+  "name": "redis-app",
+  "version": "1.0.0",
+  "description": "Simple user manegement app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Estelo Abellanosa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "method-override": "^3.0.0",
+    "redis": "^3.0.2",
+    "save": "^2.4.0"
+  }
+}
